@@ -1,1 +1,41 @@
-# formulario
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Document</title>
+</head>
+<body>
+
+    
+        
+    <h1 class="ejemplo" >FORMULARIO CLUB </h1>
+
+    <form>
+       
+        <label for="NOMBRE">Nombre </label>
+        <input id="NOMBRE" placeholder="NOMBRE" type="text"/> <!-- hacemos clic y podemos escribir -->
+        
+        <label for="APELLIDO"> Apellido </label>
+        <input id="APELLIDO" placeholder="APELLIDO" type="text"/>
+
+        <label for="EDAD">Edad</label>
+        <input id="EDAD" type="number" max="99" min="1">
+
+        <label for="SEXO">Sexo</label>
+        <input id="SEXO" type="radio">
+
+
+        <p>Valoraciones</p>
+
+        <label for="check"> me siento del club</label>
+        <input id="check" type="checkbox">
+        <p>Descripcion</p>
+       
+        <textarea id="AREA" cols="50" rows="6"></textarea>
+
+    
+    </form>
+    
+</body>
+</html># formulario
